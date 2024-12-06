@@ -1,0 +1,55 @@
+/* General body styles */
+body {
+    text-align: center;
+    background-color: mediumturquoise;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section styling */
+section {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center content vertically */
+    border: 1px solid royalblue; /* Smaller border width */
+    background-color: rgba(243, 245, 39, 0.58);
+    font-size: larger;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center; /* Ensure text is centered */
+}
+
+/* Styling for unordered lists */
+ul {
+    display: inline-block;
+    margin-right: 30px;
+    color: royalblue;
+    font-weight: 400;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px; /* Adds space below the list */
+}
+
+    ul li {
+        margin: 5px 0; /* Adds space between list items */
+    }
+
+/* Styling for facts section */
+.facts {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Image styling */
+img {
+    max-height: 600px; /* Increased height */
+    max-width: 800px; /* Increased width */
+    margin-top: 40px;
+    background-color: darkturquoise;
+    border-radius: 8px;
+    object-fit: cover; /* Ensures the image fits well within bounds */
+}
